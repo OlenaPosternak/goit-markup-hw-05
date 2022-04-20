@@ -293,8 +293,40 @@ box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0
 } */
 
 .card-thumb{
-    display: block;
+   display: block;
+
 }
+
+.card-thumb .project{
+  position: relative;
+    
+}
+.card-thumb .project-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    overflow:auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+   
+
+    font-size: 18px;
+    line-height: 1.56;
+    
+    color: #FFFFFF;
+    background-color: rgba(33, 150, 243, 0.9);;
+    
+}
+.project-overlay-text{
+    margin: 63px 24px;
+}
+
 .card-thumb:hover {
 box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16),
 0px 4px 4px 0px rgba(0, 0, 0, 0.06),
