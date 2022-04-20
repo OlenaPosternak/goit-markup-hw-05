@@ -303,12 +303,15 @@ overflow:hidden;
     
 }
 .card-thumb .project-overlay{
+
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
+    height: 100%; 
     transform: translateY(100%);
+
+    overflow:hidden;
 
    
 
@@ -328,7 +331,10 @@ overflow:hidden;
     
 }
 .project-overlay-text{
-    margin: 63px 24px;
+
+        width: 322px;
+        height: 168px;
+        overflow: auto;
 }
 
 .card-thumb:hover .project-overlay{
